@@ -33,7 +33,8 @@ class HomeView extends StatelessWidget {
             SizedBox(height: 20), // Add some space between buttons
             // Second button styled to match the bottom button in the image
             ElevatedButton(
-              onPressed: () => Get.toNamed(AppRoutes.SensorView),
+              // onPressed: () => Get.toNamed(AppRoutes.SensorView),
+              onPressed: () => Get.toNamed(AppRoutes.MyHomePage),
               style: ElevatedButton.styleFrom(
                 backgroundColor: Color(0xff3F69FF), // Button background color
                 padding: EdgeInsets.symmetric(vertical: 20), // Vertical padding

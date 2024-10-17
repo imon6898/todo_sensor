@@ -1,16 +1,15 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:get/get.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:todo_sensor_app/routes/app_pages.dart';
+import 'package:todo_sensor_app/routes/app_routes.dart';
+import 'package:todo_sensor_app/utils/text_const.dart';
+import 'package:timezone/data/latest.dart' as tz;
 import 'binding/view_model_binding.dart';
-import 'routes/app_pages.dart';
-import 'routes/app_routes.dart';
-import 'utils/text_const.dart';
-
-
 
 void main() {
+  tz.initializeTimeZones();
   runApp(const MyApp());
 }
 

@@ -7,5 +7,6 @@ class AppRoutes {
   static const String TodoView = '/todoView';
   static const String AddTaskView = '/addTaskView';
   static const String WebViewScreen = '/webViewScreen';
+  static const String MyHomePage = '/myhomepage';
 
 }

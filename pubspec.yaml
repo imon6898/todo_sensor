@@ -37,11 +37,15 @@ dependencies:
   cupertino_icons: ^1.0.6
   get: ^4.6.6
   shimmer: ^3.0.0
-  webview_flutter: ^4.7.0
-  flutter_screenutil: ^5.9.0
-  fluttertoast: ^8.2.5
+  flutter_screenutil: ^5.9.3
+  fluttertoast: ^8.2.8
   sensors_plus: ^6.0.1
-  syncfusion_flutter_charts: ^19.1.59
+  syncfusion_flutter_charts: ^27.1.52
+  webview_flutter: ^4.8.0
+  flutter_local_notifications: ^17.2.3
+  fl_chart: ^0.69.0
+  timezone: ^0.9.4
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
